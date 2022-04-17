@@ -44,3 +44,80 @@ button {
 }
 
 /* Start Design */
+.header,
+.section {
+  max-width: 550px;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+@media screen and (min-width: 549.98px) {
+  .header,
+  .section {
+    margin: 0 auto;
+  }
+}
+
+.title {
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+.title__link {
+  color: #0099bc;
+}
+
+.header__desciption {
+  color: #494949;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.quote-form {
+  margin-top: 2rem;
+}
+
+.quote__function {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.quote__function--left a {
+  color: #0064c8;
+}
+
+.quote__function--right {
+  justify-self: end;
+}
+
+.btn{
+  color: #262626;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: .875rem;
+}
+
+.quote__container {
+  padding: 1rem;
+  background-color: #cbd2f2;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.quote__display {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.quote__owner {
+  font-size: .875rem;
+  color: #494949;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
