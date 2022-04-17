@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Important Meta Tags -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Random Quote Generator</title>
+  <head>
+    <!-- Important Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
 
-  <!-- Connect external style file -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Connect external style file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="title">
+        <a href="#" class="title__link">🌊 kanye.rest</a>
+      </h2>
+      <p class="header__desciption">
+        A free REST API for random Kanye West quotes (Kanye as a Service)
+      </p>
+    </header>
+    <section class="section">
+      <div class="quote-form">
+        <div class="quote__function">
+          <div>
+            <a href="#">https://api.kanye.rest</a>
+          </div>
+          <div>
+            <button class="btn">📢 tweet</button>
+            <button class="btn">🔄 refresh</button>
+          </div>
+        </div>
+        <div class="quote__container">
+          <p id="quote__display">"I love sleep; it's my favorite."</p>
+          <span id="quote__owner">- kanye West</span>
+        </div>
+      </div>
+    </section>
 
-</head>
-<body>
-  
-  <!-- Connect external js file -->
-  <script src="./assets/js/app.js"></script>
-</body>
+    <!-- Connect external js file -->
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
